@@ -668,6 +668,8 @@ GameObject:
   - component: {fileID: 1745788701}
   - component: {fileID: 1745788700}
   - component: {fileID: 1745788704}
+  - component: {fileID: 1745788705}
+  - component: {fileID: 1745788706}
   m_Layer: 0
   m_Name: MovingSpiningIncreasingCube
   m_TagString: Untagged
@@ -773,6 +775,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42b8ef95081f02340b09b2a55277c746, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1745788705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745788698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1d05bb7f69986468d356f9ac83b30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speedIncreasement: 0.05
+--- !u!114 &1745788706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745788698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e5d349f6e27f064faa8538a3c6ee0c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speedOfTurnByY: 2
 --- !u!1 &1770661588
 GameObject:
   m_ObjectHideFlags: 0
