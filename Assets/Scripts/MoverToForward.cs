@@ -8,6 +8,6 @@ public class MoverToForward : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(transform.forward * _speedMovement);
+        transform.Translate(transform.forward * _speedMovement, Space.World);
     }
 }

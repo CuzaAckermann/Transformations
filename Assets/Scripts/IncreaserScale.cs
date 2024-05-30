@@ -8,6 +8,6 @@ public class IncreaserScale : MonoBehaviour
 
     private void Update()
     {
-        transform.localScale += new Vector3(_speedIncreasement, _speedIncreasement, _speedIncreasement);
+        transform.localScale += Vector3.one * _speedIncreasement;
     }
 }
